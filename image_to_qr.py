@@ -1,7 +1,7 @@
 '''
     My implementation of an image to qr code generator
     Project takes the name of an image in the same directory
-    as project.py and uploads it to imgbb.com using an api key
+    as image_to_qr.py and uploads it to imgbb.com using an api key
     project then converts that image url into a qr code that
     when scanned will take you directly to the image
 '''

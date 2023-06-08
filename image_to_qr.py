@@ -22,7 +22,7 @@ def main():
     qr_code(img_url)
 
 
-# convert the image to base64 and write the result to b64.txt
+# convert the image to base64
 def convert():
     with open("b64.txt", "wb") as out:
         with open(argv[1], "rb") as file:
